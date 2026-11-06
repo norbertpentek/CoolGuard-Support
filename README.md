@@ -5,7 +5,7 @@ CoolGuard is an iOS app that helps you protect your phone's battery from heat. I
 ## FAQ
 
 **Why does CoolGuard ask for location access?**
-Two reasons: (1) to fetch the weather (outdoor temperature) for where you are, and (2) with "Always" access, the Heat Map can record where your phone overheated, even in the background. Location data never leaves your phone – see the [Privacy Policy](PRIVACY.md).
+Two reasons: (1) to fetch the weather (outdoor temperature) for where you are, and (2) with "Always" access, the Heat Map can record where your phone overheated, even in the background. The app does not send your location history to the developer, and Heat Map locations are stored on your device. However, your coordinates do go to the weather provider (Apple WeatherKit from version 1.4, Open-Meteo in version 1.3.1 and earlier), Apple receives them for place-name and country lookups, and device backups may include saved locations. See the [Privacy Policy](PRIVACY.md) for details.
 
 **Why doesn't the widget update instantly?**
 iOS refreshes Home Screen widgets on a system-managed schedule. For real-time updates, enable the Heat Map's live display – it shows the current level on the Lock Screen and Dynamic Island.
